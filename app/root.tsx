@@ -14,9 +14,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
+        <link rel="icon" href="/favicon.svg?v=2" />
         <Links />
       </head>
-      <body>
+      <body className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
         {children}
         <ScrollRestoration />
         <Scripts />
