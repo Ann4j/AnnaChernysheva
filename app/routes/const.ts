@@ -7,8 +7,6 @@ import image5 from './assets/project-5.jpg';
 import image6 from './assets/project-6.png';
 
 
-
-
 export const itemNav = [
     {
         href: "#about",
@@ -63,4 +61,4 @@ export const projects = [
         imgUrl: image6,
         technology:["TypeScript","React","Vite"]
     },
-]
+];
