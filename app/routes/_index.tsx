@@ -110,7 +110,7 @@ export default function Index() {
                     <p className="about__descr mb-4">
                       Когда я&nbsp;не&nbsp;за&nbsp;компьютером, можно найти меня на&nbsp;коврике для
                       &nbsp;
-                      <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://skillbox.ru/" target="_blank" rel="noreferrer noopener" aria-label="Skillbox">
+                      <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://youtu.be/gTebJ1Px6yE?si=SHP0tQCBcLSwgT6y" target="_blank" rel="noreferrer noopener" aria-label="Skillbox">
                         фитнеса
                       </a>,
                       до разработки я посветила 5 лет фитнес индустрии. За&nbsp;хорошей книгой или в&nbsp;кругу близких. А&nbsp;иногда я&nbsp;отправляюсь исследовать мир

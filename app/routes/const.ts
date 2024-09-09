@@ -31,6 +31,7 @@ export const projects = [
         technology:["HTML","CSS","GreenSock","JS"]
     },
     {
+        link:"https://hightpass.netlify.app/",
         title: "Фотостудию «High pass»",
         descr: "На сайте есть информация о услугах, предыдущих проектах студии, подписка на рассылку и форма для связи с клиентами.",
         imgUrl: image4,
@@ -50,6 +51,7 @@ export const projects = [
         technology:["Pug","SCSS","Webpack"]
     },
     {
+        link:"https://github.com/Ann4j/CRM",
         title: "CRM",
         descr: "Программа, в которой можно работать с контактной информацией всех учеников. Добавление и просмотр контактной информации, добавление и изменение данных.",
         imgUrl: image3,
