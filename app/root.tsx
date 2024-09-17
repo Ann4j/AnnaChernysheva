@@ -7,6 +7,7 @@ import {
 } from "@remix-run/react";
 
 import './tailwind.css';
+import MouseEffect from "./routes/mous";
 
 export default function App() {
   return (
