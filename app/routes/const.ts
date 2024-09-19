@@ -58,6 +58,7 @@ export const projects = [
         technology:["HTML","CSS", "JS"]
     },
     {
+        link:"https://github.com/Ann4j/NoteList",
         title: "Список заметок",
         descr: "Реализация авторизации, регистрации и входа пользователя. Отображение списка заметок и функция добавления. Функционал в данный момент дополняется.",
         imgUrl: image6,

@@ -6,3 +6,13 @@
 .portfolio__mous {
     background: radial-gradient(600px circle at 0px 0px, rgba(29, 78, 216, 0.15), transparent 80%);
 }
+
+.active {
+    background-color: rgb(226 232 240);
+    width: 4rem;
+}
+
+.active__text {
+    color: rgb(226 232 240);
+}
+
