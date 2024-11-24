@@ -13,7 +13,7 @@ const Sections = () => {
         <div className="about__content">
           <p className="about__descr mb-4">
             Лишь в&nbsp;прошлом году я&nbsp;окончательно решила погрузиться в&nbsp;мир разработки
-            и&nbsp;попробовать себя в&nbsp;создании интерфейсов. С&nbsp;тех пор я&nbsp;выполняла проекты
+            и&nbsp;попробовать себя в&nbsp;создании интерфейсов. С&nbsp;тех пор я&nbsp;выполняла pet-проекты и проекты
             в&nbsp;рамках обучения
             на&nbsp;платформе
             &nbsp;
@@ -22,10 +22,10 @@ const Sections = () => {
             </a>.
           </p>
           <p className="about__descr mb-4">
-            Сейчас я&nbsp;сосредоточена на&nbsp;разработке сайта
+            Сейчас я&nbsp;сосредоточена на&nbsp;разработке компонентов для платформы
             &nbsp;
-            <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://skillbox.ru/" target="_blank" rel="noreferrer noopener" aria-label="Skillbox">
-              мебели
+            <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://worken.ai/" target="_blank" rel="noreferrer noopener" aria-label="Skillbox">
+              worken.ai
             </a>,
             параллельно изучая современные
             инструменты и&nbsp;совершенствуя свои навыки. Больше всего мне нравится находиться на&nbsp;стыке
@@ -33,20 +33,6 @@ const Sections = () => {
           </p>
           <p className="about__descr mb-4">
             Размышляя о моей конечной цели, я понимаю, что у самурая есть только путь.
-            На&nbsp;этом пути я&nbsp;стремлюсь получить опыт работы в&nbsp;команде&nbsp;, в разработке с&nbsp;искусственным интеллектом и в свободное время сделать web app.
-          </p>
-          <p className="about__descr mb-4">
-            Когда я&nbsp;не&nbsp;за&nbsp;компьютером, можно найти меня на&nbsp;коврике для
-            &nbsp;
-            <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://youtu.be/gTebJ1Px6yE?si=SHP0tQCBcLSwgT6y" target="_blank" rel="noreferrer noopener" aria-label="Skillbox">
-              фитнеса
-            </a>,
-            до разработки я посветила 5 лет фитнес индустрии. За&nbsp;хорошей книгой или в&nbsp;кругу близких. А&nbsp;иногда я&nbsp;отправляюсь исследовать мир
-            сквозь объектив  &nbsp;
-            <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://ru.pinterest.com/anneclka/_created/" target="_blank" rel="noreferrer noopener" aria-label="Pinterest">
-              пленочной камеры
-            </a>
-            &nbsp;&mdash; ведь красота повсюду.
           </p>
         </div>
       </section>

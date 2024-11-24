@@ -1,8 +1,6 @@
 
-import image1 from './assets/project-1.jpg';
 import image2 from './assets/project-2.jpg';
 import image3 from './assets/project-3.jpg';
-import image4 from './assets/project-4.jpg';
 import image5 from './assets/project-5.jpg';
 import image6 from './assets/project-6.png';
 
@@ -31,22 +29,8 @@ export const projects = [
         technology:["HTML","CSS","GreenSock","JS"]
     },
     {
-        link:"https://hightpass.netlify.app/",
-        title: "Фотостудию «High pass»",
-        descr: "На сайте есть информация о услугах, предыдущих проектах студии, подписка на рассылку и форма для связи с клиентами.",
-        imgUrl: image4,
-        technology:["Pug","SCSS","Parcel"]
-    },
-    {
-        link:"https://ann4j.github.io/W-Wave/",
-        title: "Радио W-Wave",
-        descr: "Сайт радио W-Wave будет современным и удобным агрегатором всех эфиров и подкастов.Основной фокус — адаптивность для мобильных устройств.",
-        imgUrl: image1,
-        technology:["HTML","CSS"]
-    },
-    {
         title: "Интернет-магазин мебели SitDownPls",
-        descr: "Упор на универсальную верстку компонентов, чтобы была возможность скопировать элемент и использовать на любой странице сайта. Находится прямо сейчас в разработке.",
+        descr: "Упор на универсальную верстку компонентов, чтобы была возможность скопировать элемент и использовать на любой странице сайта.",
         imgUrl: image5,
         technology:["Pug","SCSS","Webpack"]
     },
