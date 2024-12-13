@@ -1,4 +1,4 @@
-import {  projects } from "./const";
+import { projects } from "./const";
 
 
 const Sections = () => {
@@ -12,24 +12,10 @@ const Sections = () => {
         aria-label="Обо мне">
         <div className="about__content">
           <p className="about__descr mb-4">
-            Лишь в&nbsp;прошлом году я&nbsp;окончательно решила погрузиться в&nbsp;мир разработки
-            и&nbsp;попробовать себя в&nbsp;создании интерфейсов. С&nbsp;тех пор я&nbsp;выполняла pet-проекты и проекты
-            в&nbsp;рамках обучения
-            на&nbsp;платформе
-            &nbsp;
-            <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://skillbox.ru/" target="_blank" rel="noreferrer noopener" aria-label="Skillbox">
-              Skillbox
-            </a>.
+            В&nbsp;2023 году я&nbsp;решила полностью погрузиться в&nbsp;мир разработки, начав с&nbsp;создания собственных pet-проектов. Эти проекты не&nbsp;только подтвердили моё желание заниматься разработкой, но&nbsp;и&nbsp;заложили прочную основу для дальнейшего профессионального роста.
           </p>
           <p className="about__descr mb-4">
-            Сейчас я&nbsp;сосредоточена на&nbsp;разработке компонентов для платформы
-            &nbsp;
-            <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300" href="https://worken.ai/" target="_blank" rel="noreferrer noopener" aria-label="Skillbox">
-              worken.ai
-            </a>,
-            параллельно изучая современные
-            инструменты и&nbsp;совершенствуя свои навыки. Больше всего мне нравится находиться на&nbsp;стыке
-            дизайна и&nbsp;инженерии.
+            Каждый новый проект становится шагом на&nbsp;моём пути, который складывается в&nbsp;синтез опыта, яркого и&nbsp;по-настоящему оригинального. Находясь на&nbsp;стыке дизайна и&nbsp;инженерии, я&nbsp;постоянно ищу способы создавать решения, которые впечатляют своей смелостью и&nbsp;продуманностью.
           </p>
           <p className="about__descr mb-4">
             Размышляя о моей конечной цели, я понимаю, что у самурая есть только путь.

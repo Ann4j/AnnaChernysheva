@@ -22,7 +22,7 @@ export default function Index() {
                   Чернышева Анна
                 </h1>
                 <h2 className="static__prof mb-4 text-lg font-medium tracking-tight text-slate-200 sm:text-xl ">
-                  Junior Frontend
+                  Frontend-разработчик
                 </h2>
                 <p className="static__descr mb-16 max-w-xs leading-normal">
                   Я&nbsp;создаю pixel-perfect, совершенствуя привлекательность и&nbsp;доступность.
