@@ -67,7 +67,7 @@ const Sections = () => {
         id="resume"
         className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
         <div>
-          <a target="_blanc" className="inline-flex items-center leading-tight text-slate-200 font-semibold group" aria-label="View Full Project Archive" href="/resume.pdf">
+          <a target="_blanc" className="inline-flex items-center leading-tight text-slate-200 font-semibold group" aria-label="View Full Project Archive" href="/">
             <span>
               <span className="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none">
                 Посмотреть полное резюме
