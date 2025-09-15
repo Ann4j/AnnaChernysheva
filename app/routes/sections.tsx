@@ -17,11 +17,11 @@ const Sections = () => {
             профессионального роста.
           </p>
           <p className="about__descr mb-4">
-            Сейчас каждый новый пэт&nbsp;проект нацелен на рассширение hard&nbsp;skills.
-            Мне важны не только компоненты, но и общая архитектура,
-            взаимодействие с бэкендом, локализация и, особенно, UX и usability.
-            Люблю, когда фронтенд - это не просто «витрина», а ключевая часть
-            пользовательского опыта.
+            Сейчас каждый новый пэт&nbsp;проект нацелен на рассширение
+            hard&nbsp;skills. Мне важны не только компоненты, но и общая
+            архитектура, взаимодействие с бэкендом, локализация и, особенно, UX
+            и usability. Люблю, когда фронтенд - это не просто «витрина», а
+            ключевая часть пользовательского опыта.
           </p>
           <p className="about__descr mb-4">
             Размышляя о моей конечной цели, я понимаю, что у самурая есть только
@@ -37,9 +37,14 @@ const Sections = () => {
           <ul className="project__list group/list">
             {projects.map((project) => (
               <li key={project.title} className="project__item mb-12">
-                <div className="project__card card group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
-                  <div className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></div>
-                  <div className="card__content z-10 sm:order-2 sm:col-span-6">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project__card card group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 cursor-pointer  "
+                >
+                  <span className="absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg"></span>
+                  <span className="card__content z-10 sm:order-2 sm:col-span-6">
                     <p className="card__descr">{`${project.descr}`}</p>
                     <ul className="card__list mt-2 flex flex-wrap">
                       {project.technology.map((item) => (
@@ -50,7 +55,7 @@ const Sections = () => {
                         </li>
                       ))}
                     </ul>
-                  </div>
+                  </span>
                   <img
                     src={project.imgUrl}
                     alt={project.title}
@@ -61,7 +66,7 @@ const Sections = () => {
                     data-nimg="1"
                     className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                   />
-                </div>
+                </a>
               </li>
             ))}
           </ul>
@@ -73,7 +78,7 @@ const Sections = () => {
       >
         <div>
           <a
-            target="_blanc"
+            target="_blank"
             className="inline-flex items-center leading-tight text-slate-200 font-semibold group"
             aria-label="View Full Project Archive"
             href="/resume.pdf"
