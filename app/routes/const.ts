@@ -34,7 +34,7 @@ export const projects = [
     technology: ["React","Gsap","Swiper","Scss"],
   },
   {
-    link: "https://github.com/Ann4j/sidebar-styled-components",
+    link: "https://ann4j.github.io/sidebar-styled-components/",
     title: "Компонент sidebar",
     descr:
       "Небольшой ui компонент - на его примере я поработала со styled-components. Вдохновлялась shacdn.",
